@@ -7,15 +7,15 @@
     gradient-color2="#0D0D0D" />
   <rect width="100%" height="20" x="0" y="0" fill="none" />
   <svg class="wrapper-top">
-    <section class="first-left">
+    <svg class="first-left">
       <text id="date" class="date"></text>
-    </section>
-    <section class="first-right">
+    </svg>
+    <svg class="first-right">
       <text id="battery" class="battery"></text>
-    </section>
+    </svg>
   </svg>
   <svg class="wrapper-center">
-    <mask id="mask" height="95%" width="100%">
+    <mask id="mask" height="83%" width="100%">
       <text id="clock" class="time"></text>
     </mask>
     <svg mask="#mask" width="100%" height="110%">
@@ -28,41 +28,41 @@
     </svg>
   </svg>
   <svg class="wrapper-bottom">
-    <section class="bottom-first">
+    <svg class="bottom-first">
       <svg class="background">
-        <image x="20" y="-14" width="85%" height="46" href="icons/panel.png"/>
+        <image x="15" y="-14" width="88%" height="46" href="icons/panel.png"/>
       </svg>
       <svg class="card">
-        <image class="icon" x="$+25" y="-4" href="icons/heart.png"/>
+        <image class="icon" x="$+15" y="-4" href="icons/heart.png"/>
         <text id="hrm-data" class="sensor-data"></text>
       </svg>
-    </section>
-    <section class="bottom-second">
+    </svg>
+    <svg class="bottom-second">
       <svg class="background">
-        <image x="5" y="-14" width="85%" height="46" href="icons/panel.png"/>
+        <image x="5" y="-14" width="88%" height="46" href="icons/panel.png"/>
       </svg>
       <svg class="card">
-        <image class="icon" x="$+10" y="-4" href="icons/steps.png"/>
+        <image class="icon" x="$+5" y="-4" href="icons/steps.png"/>
         <text id="steps" class="sensor-data"></text>
       </svg>
-    </section>
-    <section class="bottom-third">
+    </svg>
+    <svg class="bottom-third">
       <svg class="background">
-        <image x="20" y="0" width="85%" height="46" href="icons/panel.png"/>
+        <image x="15" y="0" width="88%" height="46" href="icons/panel.png"/>
       </svg>
       <svg class="card">
-        <image class="icon" x="$+25" y="10" href="icons/calories.png"/>
+        <image class="icon" x="$+15" y="10" href="icons/calories.png"/>
         <text id="calories" class="sensor-data"></text>
       </svg>
-    </section>
-    <section class="bottom-fourth">
+    </svg>
+    <svg class="bottom-fourth">
       <svg class="background">
-        <image x="5" y="0" width="85%" height="46" href="icons/panel.png"/>
+        <image x="5" y="0" width="88%" height="46" href="icons/panel.png"/>
       </svg>
       <svg class="card">
-        <image class="icon" x="$+10" y="10" href="icons/distance.png"/>
+        <image class="icon" x="$+5" y="10" href="icons/distance.png"/>
         <text id="distance" class="sensor-data"></text>
       </svg>
-    </section>
+    </svg>
   </svg>
 </svg>
