@@ -1,0 +1,25 @@
+{
+  "fitbit": {
+    "appUUID": "641e0692-06a9-41d2-8654-61b8fba6b5e7",
+    "appType": "clockface",
+    "appDisplayName": "Ecstasy",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Ecstasy"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}

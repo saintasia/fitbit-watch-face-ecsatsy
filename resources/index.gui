@@ -1,0 +1,68 @@
+<svg>
+  <gradientRect class="gradient" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="50%"
+    gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="#1C1C1C"
+    gradient-color2="#0D0D0D" />
+  <rect width="100%" height="20" x="0" y="0" fill="none" />
+  <svg class="wrapper-top">
+    <section class="first-left">
+      <text id="date" class="date"></text>
+    </section>
+    <section class="first-right">
+      <text id="battery" class="battery"></text>
+    </section>
+  </svg>
+  <svg class="wrapper-center">
+    <mask id="mask" height="95%" width="100%">
+      <text id="clock" class="time"></text>
+    </mask>
+    <svg mask="#mask" width="100%" height="110%">
+      <gradientRect width="100%" height="120%" fill="cyan"
+       gradient-type="linear"
+       gradient-x1="5%" gradient-y1="100%"
+       gradient-x2="100%" gradient-y2="0"
+       gradient-color1="#D331C8"
+       gradient-color2="#13D3F5" />
+    </svg>
+  </svg>
+  <svg class="wrapper-bottom">
+    <section class="bottom-first">
+      <svg class="background">
+        <image x="20" y="-14" width="85%" height="46" href="icons/panel.png"/>
+      </svg>
+      <svg class="card">
+        <image class="icon" x="$+25" y="-4" href="icons/heart.png"/>
+        <text id="hrm-data" class="sensor-data"></text>
+      </svg>
+    </section>
+    <section class="bottom-second">
+      <svg class="background">
+        <image x="5" y="-14" width="85%" height="46" href="icons/panel.png"/>
+      </svg>
+      <svg class="card">
+        <image class="icon" x="$+10" y="-4" href="icons/steps.png"/>
+        <text id="steps" class="sensor-data"></text>
+      </svg>
+    </section>
+    <section class="bottom-third">
+      <svg class="background">
+        <image x="20" y="0" width="85%" height="46" href="icons/panel.png"/>
+      </svg>
+      <svg class="card">
+        <image class="icon" x="$+25" y="10" href="icons/calories.png"/>
+        <text id="calories" class="sensor-data"></text>
+      </svg>
+    </section>
+    <section class="bottom-fourth">
+      <svg class="background">
+        <image x="5" y="0" width="85%" height="46" href="icons/panel.png"/>
+      </svg>
+      <svg class="card">
+        <image class="icon" x="$+10" y="10" href="icons/distance.png"/>
+        <text id="distance" class="sensor-data"></text>
+      </svg>
+    </section>
+  </svg>
+</svg>

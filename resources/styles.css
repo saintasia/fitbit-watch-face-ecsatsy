@@ -1,0 +1,126 @@
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Bold;
+  fill: #FFFFFF;
+  text-anchor: start;
+  text-length: 64;
+  font-size: 18;
+  x: $+2;
+  y: $-6;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  x: 0;
+  y: 0;
+}
+
+.wrapper-top {
+  width: 100%;
+  height: 20%;
+  x: 0;
+  y: 20;
+}
+
+.wrapper-center {
+  width: 100%;
+  height: 35%;
+  x: 0;
+  y: 13%;
+}
+
+.wrapper-bottom {
+  width: 100%;
+  height: 45%;
+  x: 0;
+  y: 60%;
+}
+
+.first-left {
+  width: 70%;
+  height: 20%;
+  x: 20;
+  y: 0;
+}
+
+.first-right {
+  width: 30%;
+  height: 20%;
+  x: 50%;
+  y: 0;
+}
+
+.date {
+  font-family: System-Bold;
+  fill: #A8A8A8;
+  font-size: 20;
+  text-length: 125;
+  text-anchor: start;
+}
+
+.battery {
+  font-family: System-Bold;
+  fill: #A8A8A8;
+  font-size: 20;
+  text-length: 64;
+  x: 150%;
+  text-anchor: end;
+}
+
+.time {
+  font-family: System-Bold;
+  fill: white;
+  font-size: 120;
+  text-length: 64;
+  x: 50%+10;
+  text-anchor: middle;
+  letter-spacing: -10;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-first {
+  width: 50%;
+  height: 20%;
+  x: 0;
+  y: 10;
+}
+
+.bottom-second {
+  width: 50%;
+  height: 20%;
+  x: 50%;
+  y: 10;
+}
+
+.bottom-third {
+  width: 50%;
+  height: 20%;
+  x: 0;
+  y: 50;
+}
+
+.bottom-fourth {
+  width: 50%;
+  height: 20%;
+  x: 50%;
+  y: 50;
+}
+
+.icon {
+  width: 30;
+  height: 26;
+}
